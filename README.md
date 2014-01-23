@@ -1,4 +1,4 @@
 feeb
 ====
 
-A simple an convenient touch/click feedback module use with Zepot or JQ.
+A simple and convenient touch/click feedback module use with Zepto or JQ.
