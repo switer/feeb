@@ -1,12 +1,12 @@
 define(function(require, exports, module) {
     'use strict';
 
-    var util = require('util/utils');
-    
+    var util = require('sutil/util');
+
     var ui = {
 
         config: {
-            onClass: 'tui-on',
+            onClass: 'fui-on',
         },
         // feedback events initialize
         init: function () {
@@ -19,8 +19,8 @@ define(function(require, exports, module) {
             /**
              *   touch feedback
              */
-            $(document).on('touchstart .tui-btn,.tui-com', function (event) {
-                var $tar = util.is(event.target, '.tui-btn') || util.is(event.target, '.tui-com');
+            $(document).on('touchstart .fui-btn,.fui-com', function (event) {
+                var $tar = util.is(event.target, '.fui-btn') || util.is(event.target, '.fui-com');
                 if (!$tar) return;
 
                 $('body').off('touchmove', scrollHandler);
