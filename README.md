@@ -1,4 +1,4 @@
 feeb
 ====
 
-UI lib, a click feedback lib.
+A simple an convenient touch/click feedback module use with Zepot or JQ.
