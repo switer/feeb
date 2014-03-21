@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+    <title>Touch Feeback Demo</title>
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+           v2.0 | 20110126
+           License: none (public domain)
+        */
+        
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+    </style>
+    <style>
+        .list-head, .list-line{
+            text-align: center;
+            line-height: 60px;
+        }
+        .list-line {
+            border-top: 1px solid #ccc;
+            color: cornflowerblue;
+        }
+        .list-item {
+            border-top: 1px solid #ccc;
+            line-height: 50px;
+            font-size: 18px;
+            padding: 0 20px;
+            color: cornflowerblue;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- div.list-item.feeb-on{($)Touch me !, please !}*30 -->
+    <div id="list">
+        <div class="list-head">Touch list, feeback of item</div>
+        <div class="list-item feeb-on">(1)Touch me !, please !</div>
+        <div class="list-item feeb-on">(2)Touch me !, please !</div>
+        <div class="list-item feeb-on">(3)Touch me !, please !</div>
+        <div class="list-item feeb-on">(4)Touch me !, please !</div>
+        <div class="list-item feeb-on">(5)Touch me !, please !</div>
+        <div class="list-item feeb-on">(6)Touch me !, please !</div>
+        <div class="list-item feeb-on">(7)Touch me !, please !</div>
+        <div class="list-item feeb-on">(8)Touch me !, please !</div>
+        <div class="list-item feeb-on">(9)Touch me !, please !</div>
+        <div class="list-item feeb-on">(10)Touch me !, please !</div>
+        <div class="list-item feeb-on">(11)Touch me !, please !</div>
+        <div class="list-item feeb-on">(12)Touch me !, please !</div>
+        <div class="list-item feeb-on">(13)Touch me !, please !</div>
+        <div class="list-item feeb-on">(14)Touch me !, please !</div>
+        <div class="list-item feeb-on">(15)Touch me !, please !</div>
+        <div class="list-item feeb-on">(16)Touch me !, please !</div>
+        <div class="list-item feeb-on">(17)Touch me !, please !</div>
+        <div class="list-item feeb-on">(18)Touch me !, please !</div>
+        <div class="list-item feeb-on">(19)Touch me !, please !</div>
+        <div class="list-item feeb-on">(20)Touch me !, please !</div>
+        <div class="list-item feeb-on">(21)Touch me !, please !</div>
+        <div class="list-item feeb-on">(22)Touch me !, please !</div>
+        <div class="list-item feeb-on">(23)Touch me !, please !</div>
+        <div class="list-item feeb-on">(24)Touch me !, please !</div>
+        <div class="list-item feeb-on">(25)Touch me !, please !</div>
+        <div class="list-item feeb-on">(26)Touch me !, please !</div>
+        <div class="list-item feeb-on">(27)Touch me !, please !</div>
+        <div class="list-item feeb-on">(28)Touch me !, please !</div>
+        <div class="list-item feeb-on">(29)Touch me !, please !</div>
+        <div class="list-item feeb-on">(30)Touch me !, please !</div>
+    </div>
+    <link rel="stylesheet" href="feeb.css">
+    <script src="./bower_components/zepto/zepto.js"></script>
+    <script src="./feeb.js"></script>
+    <script>
+        $('#list').feeb();
+    </script>
+</body>
+</html>
