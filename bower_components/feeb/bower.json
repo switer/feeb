@@ -1,0 +1,26 @@
+{
+  "name": "feeb",
+  "main": "feeb.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/switer/feeb",
+  "authors": [
+    "switer <guankaishe@gmail.com>"
+  ],
+  "description": "A simple and convenient touch/click feedback module use with Zepto/JQ.",
+  "keywords": [
+    "touch",
+    "click",
+    "feedback"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zepto": "~1.1.3"
+  }
+}
