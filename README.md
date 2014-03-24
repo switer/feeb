@@ -3,6 +3,9 @@ feeb
 
 A simple and convenient touch/click feedback module use with Zepto or JQ.
 
+## Demo
+![feeb demo](http://qrfree.kaywa.com/?l=1&s=8&d=http://switer.github.io/feeb)
+
 ## License
 
 The MIT License (MIT)
